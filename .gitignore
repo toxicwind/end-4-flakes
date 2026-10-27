@@ -31,3 +31,10 @@ Thumbs.db
 # External repositories (for reference only)
 dots-hyprland/
 dots-hyprland-wiki/
+
+# token-scrub 2026-09-14: never commit secrets
+*.pat
+github_*_pat.json
+.env*
+*secret*
+*token*
